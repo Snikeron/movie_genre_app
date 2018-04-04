@@ -46,5 +46,16 @@ bio = Genre.find(5)
 Movie.find(1).genres << action
 Movie.find(1).genres << drama
 
+Movie.find(2).genres << action
+Movie.find(2).genres << drama
+
+Movie.find(3).genres << romance
+Movie.find(3).genres << comedy
+
+Movie.find(4).genres << comedy
+Movie.find(4).genres << drama
+
+Movie.find(5).genres << drama
+Movie.find(5).genres << bio
 
 
