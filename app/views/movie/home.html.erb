@@ -1,0 +1,17 @@
+<h1>MOVIE LIST</h1>
+<p>Find me in app/views/movie/home.html.erb</p>
+
+<ol>
+    <% @movies.each do |movie| %>
+        <u><h2><li><%= movie.title %></li></h2></u>
+        <p><%= movie.description %></p>
+        <ul>
+        <% movie.genres.each do |genre| %>
+            <li><%= genre.label %></li>
+        <% end %>
+        </ul>
+    <% end %> 
+</ol>
+  
+
+    
